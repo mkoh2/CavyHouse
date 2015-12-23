@@ -48,7 +48,7 @@ def storyTime2():
     time.sleep(2)
     print " "
     print "TACO: \"Okay, ", charName, " -- can you come to the desk for a second?\""
-    print charName, "walks towards the desk. There is a FORM."
+    print "You walk towards the desk. There is a FORM."
     time.sleep(1)
     print " "
     print "TACO slides the FORM to you."
@@ -118,8 +118,25 @@ def storyTime2():
             favHidingSpot = raw_input("TACO: \"What's your favorite hiding spot?\": ").upper()[:20]
         else:
             print "TACO: \"I didn't get that.\""
-            
     
+    storyTime3()
+    
+def storyTime3():        
+	print "TACO: \"Alright, so I think we're all done here.\""
+	print "TACO hands you the CAVY HOUSE KEY."
+	charItemList = ["CAVY HOUSE KEY"]
+	time.sleep(1)
+	print "You now have the following in your possession: ", charItemList
+	print " "
+	print "You are about to head out the door when TACO comes waddling after you."
+	print " "
+	print "TACO: \"I almost forgot! Here's a small gift for you to welcome you to our little home.\""
+	print "You receive CARROT STICK."
+	time.sleep(!)
+	charItemList.append("CARROT STICK")
+	print " "
+	print "You now have the following in your posession: ", charItemList
+	
 def main():
     beginningStory()
     
